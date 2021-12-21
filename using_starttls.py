@@ -16,6 +16,7 @@ try:
     server.ehlo() # Can be omitted
     server.login(sender_email, password)
     # TODO: Send email here
+    # server.sendmail(sender_email, receiver_email, message) when you are ready! 😉 😜
 except Exception as e:
     # Print any error messages to stdout
     print(e)
@@ -23,4 +24,3 @@ except Exception as e:
 finally:
     server.quit() 
     
-# server.sendmail(sender_email, receiver_email, message) when you are ready! 😉 😜
