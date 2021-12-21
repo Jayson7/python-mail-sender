@@ -23,4 +23,4 @@ except Exception as e:
 finally:
     server.quit() 
     
-# server.sendmail(sender_email, receiver_email, message) when you are ready! :wink: :stuck_out_tongue_winking_eye:
+# server.sendmail(sender_email, receiver_email, message) when you are ready! 😉 😜
