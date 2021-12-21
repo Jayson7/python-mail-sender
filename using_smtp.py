@@ -11,4 +11,4 @@ with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
     # TODO: Send email here
     
     
-# server.sendmail(sender_email, receiver_email, message) when you are ready! 😉 
+# server.sendmail(sender_email, receiver_email, message) when you are ready! 😉 😜
