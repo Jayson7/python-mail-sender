@@ -19,5 +19,6 @@ try:
 except Exception as e:
     # Print any error messages to stdout
     print(e)
+    
 finally:
     server.quit() 
